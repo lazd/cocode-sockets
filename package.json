@@ -1,0 +1,32 @@
+{
+  "name": "cocode-sockets",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Larry Davis <lazdnet@gmail.com>",
+  "license": "Closed",
+  "dependencies": {
+    "codemirror": "^4.2.0",
+    "express": "^4.4.4",
+    "jquery": "^2.1.1",
+    "morgan": "^1.1.1",
+    "socket.io": "^1.0.6",
+    "socket.io-client": "^1.0.6"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^2.1.0",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-symlink": "^0.3.0",
+    "grunt-contrib-uglify": "^0.5.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-rework": "git+ssh://git@github.com:lazd/grunt-rework.git",
+    "rework": "^1.0.0",
+    "rework-calc": "^0.2.2",
+    "rework-import": "^1.0.0",
+    "rework-inherit": "^0.2.2",
+    "rework-vars": "^3.1.1"
+  }
+}

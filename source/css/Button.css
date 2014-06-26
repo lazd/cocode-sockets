@@ -1,0 +1,22 @@
+.cc-Button {
+  inherit: %ButtonReset;
+
+  box-sizing: border-box;
+  height: var(--inputHeight);
+  padding: 0 8px; /* No vertical padding, height handles that */
+
+  color: var(--buttonFontColor);
+
+  font-size: var(--inputFontSize);
+  font-weight: 300;
+  font-family: 'Lato';
+}
+
+.cc-Button:disabled {
+	opacity: 0.5;
+	cursor: default;
+}
+
+.cc-Button--blue {
+  background: var(--coTrainBlue-light);
+}

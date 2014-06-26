@@ -1,0 +1,16 @@
+.cc-Input {
+  box-sizing: border-box;
+  height: var(--inputHeight);
+  margin: 0;
+  padding: 0 4px; /* No vertical padding, height handles that */
+
+  vertical-align: top;
+
+  border: none;
+
+  box-shadow: inset 1px 1px 2px rgba(0,0,0,0.5);
+
+  font-size: var(--inputFontSize);
+  font-weight: 300;
+  font-family: 'Lato';
+}

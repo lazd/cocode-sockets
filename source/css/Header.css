@@ -1,0 +1,60 @@
+.cc-Header,
+.cc-Footer {
+  z-index: 1;
+  position: absolute;
+  height: var(--headerHeight);
+  left: 0;
+  right: 0;
+
+  background: linear-gradient(to bottom, rgb(230,230,230) 0%, rgb(180,180,180) 100%);
+
+  display: flex;
+  align-items: center;
+}
+
+.cc-Header {
+  top: 0;
+}
+
+.cc-Header-h1 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.cc-Header-h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.cc-Footer {
+  bottom: 0;
+}
+
+.cc-Header-column {
+  flex: 1;
+  padding: 8px 16px;
+
+  position: relative; /* Constrain positioned descendants */
+}
+
+.cc-Header-column--noPadding {
+  padding: 0;
+}
+
+.cc-Header-column--wide {
+  flex: 3;
+}
+
+.cc-Header-column--left {
+  text-align: left;
+}
+
+.cc-Header-column--center {
+  text-align: center;
+}
+
+.cc-Header-column--right {
+  text-align: right;
+}
